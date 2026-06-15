@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Академия ТОП — обучение IT-профессиям</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Академия ТОП</h1>
+        <p>Обучение современным IT‑профессиям с нуля</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#courses">Курсы</a></li>
+            <li><a href="#teachers">Преподаватели</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="about">
+            <h2>О нас</h2>
+            <p>Академия ТОП — ведущая образовательная платформа по обучению IT‑специальностям в России. Мы готовим специалистов с 2010 года и выпустили более 10 000 студентов.</p>
+            <p>Наши программы разработаны совместно с ведущими IT‑компаниями, поэтому выпускники сразу готовы к реальной работе.</p>
+        </section>
+
+        <section id="courses">
+            <h2>Наши курсы</h2>
+            <ul>
+                <li><strong>Веб‑разработка</strong> — полный цикл от HTML/CSS до React и Node.js</li>
+                <li><strong>Графический дизайн</strong> — Figma, Adobe Photoshop, Illustrator</li>
+                <li><strong>Тестирование ПО</strong> — ручное и автоматизированное тестирование</li>
+                <li><strong>Python‑разработка</strong> — от основ до машинного обучения</li>
+                <li><strong>Мобильная разработка</strong> — Android и iOS</li>
+            </ul>
+        </section>
+
+        <section id="teachers">
+            <h2>Наши преподаватели</h2>
+            <p>Все наши преподаватели — практикующие специалисты с опытом работы в IT от 5 лет. Они не только передают знания, но и делятся реальными кейсами из проектов.</p>
+            <div>
+                <h3>Иванов Алексей Сергеевич</h3>
+                <p>Ведущий преподаватель по веб‑разработке, 12 лет в индустрии. Работал в Яндекс и СберТех.</p>
+            </div>
+            <div>
+                <h3>Петрова Мария Дмитриевна</h3>
+                <p>Эксперт по графическому дизайну, арт‑директор в студии «Креатив».</p>
+            </div>
+        </section>
+
+        <section id="contacts">
+            <h2>Контакты</h2>
+            <p><strong>Адрес:</strong> г. Москва, ул. Тверская, д. 15</p>
+            <p><strong>Телефон:</strong> +7 (495) 123‑45‑67</p>
+            <p><strong>Email:</strong> info@top-academy.ru</p>
+            <p><strong>Режим работы:</strong> Пн–Пт: 9:00–18:00</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Академия ТОП. Все права защищены.</p>
+    </footer>
+</body>
+</html>
